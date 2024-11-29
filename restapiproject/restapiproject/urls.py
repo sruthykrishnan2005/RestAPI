@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.sample_fun),
     path('model_view',views.mode_view),
+    path('update_view/<id>',views.update_view),
+    path('fun1',views.fun1),
+    path('fun2/<id>',views.fun2),
 ]
